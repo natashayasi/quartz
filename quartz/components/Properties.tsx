@@ -14,7 +14,7 @@ function createLinkedElement(fileData: any, opts : any, value: string) {
 function createPropertyElement(key: string, value: any) {
   return(
     <li>
-      {key} : {value}
+      <span class="property">{key}</span> : <span class="value">{value}</span>
     </li>
   )
 }
